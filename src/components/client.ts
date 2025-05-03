@@ -259,9 +259,6 @@ const hooks: IHooks = {
       }
     },
   ],
-  beforeCompileTemplate: [
-
-  ],
   afterCompileTemplate: [
     async (dest, frm, component, openrpcDocument): Promise<void> => {
       if (component.language === 'typescript') {
